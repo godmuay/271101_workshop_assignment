@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Call hand pipe line module
 import cv2
 import mediapipe as mp
@@ -86,9 +85,8 @@ while True:
 
     cv2.imshow("Image", img)
     if cv2.waitKey(1) & 0xFF == ord('c'):
-        breakแ
+        break
 #Closeing all open windows
-=======
 #Call hand pipe line module
 import cv2
 import mediapipe as mp
@@ -162,5 +160,4 @@ while True:
     cv2.imshow("Image", img)
     cv2.waitKey(1)
 #Closeing all open windows
->>>>>>> 7ae4c9e80f70e284f3adfe244edf07778bfea220
 #cv2.destroyAllWindows()
